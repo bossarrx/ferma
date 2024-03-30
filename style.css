@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container1{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 90PX;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1080px) {
+    .container1{
+        flex-direction: column;
+    }
+    
+}
+body{
+    font-family:"Inter", sans-serif;
+}
+.lala{
+    width: 90px;
+    height: 90px; 
+    padding: 0 ,94px;
+}
+@media (max-width:1080px) {
+    .lala{
+        width: 60px;
+        height: 60px;
+    }
+}
+.uuu{
+    display: flex;
+}
+.btn{
+    background-color: rgb(240, 109, 15);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 260px;
+    height: 60px;
+}
+@media (max-width:1080px) {
+    .btn{
+        margin-top: 30px;
+    }
+    
+}
+.card1{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.btn:hover{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+-23px 0 20px -23px rgba(0, 0, 0, .8),
+23px 0 20px -23px rgba(0, 0, 0, .8),
+0 0 40px rgba(0, 0, 0, .1) inset;
+transition: all,0.3s;
+background-color: brown;
+padding: 0, 94px;
+}
+.container2{
+  display: flex;  
+  align-items: center;
+}
+@media (max-width:1080px) {
+    .container2{
+        flex-direction: column;
+    }
+    
+}
+.rrrr{
+    width: 500px;
+    height: 207px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px;
+    
+}
+@media (max-width:1080px) {
+    .rrrr{
+        width: 300px;
+        height: 152px;
+        margin: 30px;
+    }
+    
+}
+.ee{
+    width: 446px;
+    height: 447px;
+    background-image: url(photo_2024-03-05_17-25-37.jpg);
+}
+@media (max-width:1080px) {
+    .ee{
+        display: none;
+    }
+    
+}
+.ff{
+    width: 273px;
+    height: 627px;
+}
+
